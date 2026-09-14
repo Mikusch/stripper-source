@@ -17,7 +17,9 @@
 #define vsnprintf _vsnprintf
 #endif
 #include "stripper_mm.h"
+#if METAMOD_PLAPI_VERSION >= 18
 #include <khook.hpp>
+#endif
 #include "intercom.h"
 #include "icommandline.h"
 #include <stripper_version_auto.h>
